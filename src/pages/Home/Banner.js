@@ -99,15 +99,16 @@ export default function Banner() {
               </Button>
             </Col>
             <Col xs={24} lg={12} xl={14}>
+
+            <FadeIn delay="1600">
               <div className="image-container">
-                <FadeIn delay="1500">
                   <img
                     className="flexitank"
                     src={flexitank}
                     alt="Sai Flexitank"
                   />
-                </FadeIn>
               </div>
+              </FadeIn>
             </Col>
           </Row>
         </div>

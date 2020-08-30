@@ -8,7 +8,7 @@ export default function Home() {
     useEffect(()=>(
         setTimeout(() => {
             setLoading(false);
-        }, 800)
+        }, 1300)
     ),[])
     return (
         <div id="homepage">
