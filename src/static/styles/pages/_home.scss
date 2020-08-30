@@ -62,7 +62,7 @@
         }
       }
       .cta-button {
-          margin-top: 12px;
+        margin-top: 12px;
         @include square-button(black, white);
         height: 40px;
         .arrow {
@@ -103,11 +103,11 @@
           display: flex;
           align-items: flex-start;
           margin-bottom: 16px;
-          .point-arrow{
-              margin-right: 8px;
-              @include md{
-                  margin-right: 12px;
-              }
+          .point-arrow {
+            margin-right: 8px;
+            @include md {
+              margin-right: 12px;
+            }
           }
           span {
             color: white;
