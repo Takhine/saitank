@@ -1,0 +1,12 @@
+@import '~antd/dist/antd.css';
+@import './utilities/variables';
+@import './utilities/colors';
+@import './utilities/breakpoints';
+@import './utilities/mixins';
+
+@import './base';
+
+@import './pages/home';
+
+@import './layout/navbar';
+@import './layout/navmenu';

@@ -1,0 +1,66 @@
+
+    #navbar.coloredStyle{
+        transition: 0.5s ease;
+        -webkit-transition: 0.5s ease;
+        -ms-transition: 0.5s ease;
+        background: white;
+    }
+    #navbar.transparentStyle{
+        transition: 0.5s ease;
+        background: transparent;
+        -webkit-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+
+    }
+    #navbar{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        height: 60px;
+        padding: 0 12px;
+        background-color: $primary-blue;
+        right: unset;
+        color: white;
+    
+    
+        @include md{
+            height: 65px;
+            padding: 0 32px;
+        }
+        @include lg{
+            height: 70px;
+            padding: 0 48px;
+        }
+        @include xl{
+            padding: 0 120px ;
+        }
+        .grow{
+            display: flex;
+            flex-grow: 1;
+        }
+        .toolbar{
+            padding: 0;
+            .menuItem{
+                margin-right: 12px;
+                color: white;
+                font-weight: 400;
+            }
+            .menu-icon{
+                display: block;
+                margin-right: 12px;
+                @include mmd{
+                    display: none;
+                }
+            }
+        }
+        .logo{
+            cursor: pointer;
+            width: 100px;
+            @include mmd{
+                width: 120px;
+                padding: 10px 0;
+            }
+            @include xxl{
+                width: 150px;
+            }
+        }
+    }

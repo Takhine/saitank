@@ -1,0 +1,111 @@
+// The smallest of the smallest of devices
+@mixin xxs {
+    @media (max-width:#{$screen-xs-min}) {
+     @content;   
+    }
+}
+// Extra Small devices
+@mixin xs {
+    @media (min-width: #{$screen-xs-min}) {
+        @content;
+    }
+ }
+// Small devices
+@mixin sm {
+    @media (min-width: #{$screen-sm-min}) {
+        @content;
+    }
+ }
+ // Medium devices
+ @mixin md {
+    @media (min-width: #{$screen-md-min}) {
+        @content;
+    }
+ }
+ 
+ // Large devices
+ @mixin lg {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+ }
+ 
+ // Extra large devices
+ @mixin xl {
+    @media (min-width: #{$screen-xl-min}) {
+        @content;
+    }
+ }
+ 
+ @mixin xxl {
+    @media (min-width: #{$screen-xxl-min}) {
+        @content;
+    }
+ }
+
+ @mixin xxxl {
+    @media (min-width: #{$screen-xxxl-min}) {
+        @content;
+    }
+ }
+// Custom devices + Mui
+@mixin rwd($screen-min,$screen-max) {
+    @media (min-width: $screen-min+'px')and (max-width:$screen-max+'px') {
+        @content;
+    }
+ }
+ @mixin mlg{
+    @media (min-width: #{$mui-screen-lg-min}){
+        @content;
+    }
+}
+ @mixin mmd{
+     @media (min-width: #{$mui-screen-md-min}){
+         @content;
+     }
+ }
+ @mixin msm {
+     @media (min-width: #{$mui-screen-sm-min}){
+         @content;
+     }
+ }
+
+@mixin section-container {
+    padding-right: 12px;
+    padding-left: 12px;
+    @include msm{
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    @include md{
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    @include mmd{
+        padding-right: 64px;
+        padding-left: 64px;
+    }
+
+    @include xxl{
+        padding-right: 120px;
+        padding-left: 120px; 
+    }
+}
+
+
+// Buttons
+@mixin square-button($color, $background) {
+    color: $color;
+    background-color: $background;
+    border-radius: 4px;
+    border: none;
+    text-transform: capitalize;
+}
+
+@mixin round-button($color, $background) {
+    color: $color;
+    background-color: $background;
+    border-radius: 32px;
+    border: none;
+    text-transform: capitalize;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="285.949" viewBox="0 0 1280 285.949">
+  <g id="Group_441" data-name="Group 441" transform="translate(0 -113)">
+    <g id="Group_412" data-name="Group 412" transform="translate(0 113)">
+      <rect id="Rectangle_198" data-name="Rectangle 198" width="1280" height="119" transform="translate(0 89.076)" fill="#10239e"/>
+      <path id="wave" d="M1280,83.826,1237.333,86.1c-42.667,2.442-128,6.727-213.333,20.565-85.333,13.582-170.667,36.718-256,38.86S597.333,129.67,512,111.246,341.333,74.829,256,74.7c-85.333.129-170.667,18.123-213.333,27.421L0,111.246V179.8H1280Z" transform="translate(0 -74.7)" fill="#10239e"/>
+    </g>
+    <path id="wave_2_" data-name="wave (2)" d="M1280,110.359s-64.345-20.735-171.012-38.6S965.638,43.252,823.416,61.727c-142.222,18.821-254.527,44-396.749,53.538S142.222,105.724,71.111,96.79L0,87.51V228.666H1280Z" transform="translate(0 170.283)" fill="#1025ab"/>
+  </g>
+</svg>
