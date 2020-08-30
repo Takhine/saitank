@@ -4,13 +4,14 @@
         -webkit-transition: 0.5s ease;
         -ms-transition: 0.5s ease;
         background: white;
+        box-shadow: $main-box-shadow;
     }
     #navbar.transparentStyle{
         transition: 0.5s ease;
-        background: transparent;
+        background: $primary-blue;
         -webkit-transition: 0.5s ease;
-    -ms-transition: 0.5s ease;
-
+        -ms-transition: 0.5s ease;
+        box-shadow: none;
     }
     #navbar{
         padding-top: 8px;
@@ -20,18 +21,21 @@
         background-color: $primary-blue;
         right: unset;
         color: white;
-    
-    
+        @include msm{
+            padding: 0 16px;
+        }
         @include md{
             height: 65px;
-            padding: 0 32px;
+            padding: 0 24px;
         }
-        @include lg{
-            height: 70px;
-            padding: 0 48px;
+        @include mmd{
+            padding: 0 64px;
         }
-        @include xl{
-            padding: 0 120px ;
+        @include xxl{
+            padding: 0 120px;
+        }
+        @include xxxl{
+            padding: 0 200px;
         }
         .grow{
             display: flex;

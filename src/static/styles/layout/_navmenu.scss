@@ -15,16 +15,24 @@
         text-decoration: none;
         color: white;
         margin: 0;
+        font-weight: 500;
     }
     .black-link{
         text-decoration: none;
         color: black;
         margin: 0;
+        font-weight: 500;
     }
     .blue-button{
         @include round-button(white, $primary-blue);
+        span{
+            font-weight: 500;
+            }
     }
     .white-button{
         @include round-button($primary-blue, white);
+        span{
+        font-weight: 500;
+        }
     }
 }

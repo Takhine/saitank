@@ -64,7 +64,6 @@ export default function Navbar(props) {
 
   return (
     <React.Fragment>
-      <HideonScroll {...props}>
         <AppBar
           position="fixed"
           className={`${navBackground ? "coloredStyle" : "transparentStyle"}`}
@@ -98,7 +97,6 @@ export default function Navbar(props) {
             <NavMenu navBackground={navBackground} />
           </Toolbar>
         </AppBar>
-      </HideonScroll>
 
       <Drawer
         className="sidebar"

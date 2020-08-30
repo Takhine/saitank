@@ -5,24 +5,21 @@
       position: relative;
       min-height: 100vh;
       z-index: 0;
-      @include msm{
-          min-height: 100%;
+      @include msm {
+        min-height: 100%;
       }
       @include xl {
         min-height: 50vh;
       }
-      .banner-content{
-      position: relative;
-      z-index: -1;
-      background: transparent;      
-      @include section-container;
-      padding-top: 80px;
-      padding-bottom: 20px;
-      @include lg{
-      padding-top: 40px;
+      .banner-content {
+        position: relative;
+        z-index: -1;
+        background: transparent;
+        @include section-container;
+        padding-top: 80px;
+        padding-bottom: 20px;
       }
-      }
-      .left-col{
+      .left-col {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -65,19 +62,19 @@
         }
       }
       .cta-button {
+          margin-top: 12px;
         @include square-button(black, white);
         height: 40px;
         .arrow {
-            width: 10px;
-            margin-left: 8px;
+          width: 10px;
+          margin-left: 8px;
         }
       }
       .image-container {
         display: flex;
         justify-content: center;
         .flexitank {
-            width: 100%;
-            max-width: 670px;
+          width: 100%;
         }
       }
       .banner-asset {
@@ -89,10 +86,43 @@
       }
     }
     .bottom-banner {
-        background-color: black;
+      background-color: black;
+      padding-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("../../images/anchor-background.png");
+      background-repeat: repeat;
       @include section-container;
       @include xl {
         min-height: 50vh;
+      }
+      .pointers {
+        list-style: none;
+        li {
+          display: flex;
+          align-items: flex-start;
+          margin-bottom: 16px;
+          .point-arrow{
+              margin-right: 8px;
+              @include md{
+                  margin-right: 12px;
+              }
+          }
+          span {
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+          }
+        }
+      }
+      .emblem-container {
+        display: flex;
+        .emblem {
+          width: 100%;
+          max-width: 270px;
+          margin: auto;
+        }
       }
     }
   }
