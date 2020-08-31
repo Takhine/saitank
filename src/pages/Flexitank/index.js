@@ -10,11 +10,11 @@ import Loading from 'components/Loading';
 export default function Flexitank() {
     const [loading, setLoading] = useState(true);
 
-    useEffect(()=>(
+    useEffect(()=>{
         setTimeout(() => {
             setLoading(false);
         }, 1300)
-    ),[])
+    },[])
     return (
         <div id="flexitank">
         {loading  &&

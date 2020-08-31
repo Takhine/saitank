@@ -4,3 +4,30 @@
     box-sizing: border-box;
     font-family: $main-font;
 }
+
+.section-header{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    color: #1025ab;
+    @include md{
+        font-size: 14px;
+    }
+}
+.section-subheader{
+    font-weight: 600;
+    @include xl{
+        font-size: 28px;
+    }
+    @include xxxl{
+        font-size: 32px;
+    }
+}
+.section-description{
+    font-weight: 300;
+    font-weight: 300;
+    font-size: 16px;
+    @include xl{
+    font-size: 18px;
+    }
+}
