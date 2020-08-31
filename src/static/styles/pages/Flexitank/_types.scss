@@ -1,0 +1,13 @@
+#flexitank{
+    .types{
+        @include section-container;
+        .types-heading{
+            .types-header{
+
+            }
+            .types-subheader{
+
+            }
+        }
+    }
+}

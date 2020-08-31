@@ -1,0 +1,89 @@
+#flexitank {
+  .banner {
+    .top-banner {
+      background-color: $primary-blue;
+      position: relative;
+      min-height: 100vh;
+      z-index: 0;
+      @include msm {
+        min-height: 100%;
+      }
+      @include xl {
+        min-height: 50vh;
+      }
+      .banner-content {
+        position: relative;
+        z-index: -1;
+        background: transparent;
+        @include section-container;
+        padding-top: 80px;
+        padding-bottom: 20px;
+      }
+      .left-col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+      }
+      .main-heading {
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 500;
+        @include msm {
+          font-size: 20px;
+        }
+        @include md {
+          font-size: 24px;
+        }
+        @include mmd {
+          font-size: 32px;
+        }
+        @include xl {
+          font-size: 44px;
+          line-height: 1.2;
+          letter-spacing: 4px;
+        }
+      }
+      .main-subheading {
+        color: white;
+        font-weight: 300;
+        @include msm {
+          font-size: 14px;
+        }
+        @include md {
+          font-size: 16px;
+        }
+        @include lg {
+          font-size: 18px;
+        }
+        @include xl {
+          font-size: 20px;
+        }
+      }
+      .cta-button {
+        margin-top: 12px;
+        @include square-button(black, white);
+        height: 40px;
+        .arrow {
+          width: 10px;
+          margin-left: 8px;
+        }
+      }
+      .image-container {
+        display: flex;
+        justify-content: center;
+        .flexitank {
+          width: 100%;
+        }
+      }
+      .banner-asset {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -2;
+      }
+    }
+  }
+}
