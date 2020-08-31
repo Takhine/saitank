@@ -7,15 +7,15 @@ import back from "static/images/flexitank/flexitank-back.jpg";
 export default function History() {
   return (
     <div className="history">
-      <Row gutter={16}>
-        <Col xs={24} md={12}>
+      <Row>
+        <Col xs={24} md={12} className="left-col">
           <div className="back-container">
-            <img className="back-image" src={back} alt="" />
+            <img className="back-image" src={back} alt="Sai Flexitank Back View" />
           </div>
         </Col>
-        <Col xs={24} md={12}>
+        <Col className="right-col" xs={24} md={12}>
           <div className="side-container">
-            <img className="side-image" src={side} alt="" />
+            <img className="side-image" src={side} alt="Sai Flexitank Side View" />
           </div>
           <div className="side-content">
             <h2 className="history-heading">Our History</h2>

@@ -91,7 +91,8 @@
         padding-left: 120px; 
     }
     @include xxxl{
-        padding: 0 200px;
+        padding-right: 200px;
+        padding-left: 200px;  
     }
 }
 

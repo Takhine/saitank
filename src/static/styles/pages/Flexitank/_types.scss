@@ -1,12 +1,67 @@
 #flexitank{
     .types{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        @include msm {
+          padding-top: 80px;
+          padding-bottom: 80px;
+        }        background-color: #FAFAFA;
         @include section-container;
         .types-heading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
             .types-header{
-
+                @extend .section-header;
             }
             .types-subheader{
+                @extend .section-subheader;
+            }
+        }
+        .types-card{
+            box-shadow: $main-box-shadow;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            &.bulk{
+                border-top: 4px solid #1427b2;
+            }
+            &.water{
+                border-top: 4px solid #F05234;
+            }
+            &.fuel{
+                border-top: 4px solid #16C1F3;
+            }
+            .ant-card-body{
+                padding: 24px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                height: 100%;
+            }
+            .ant-card-meta-title{
+                font-size: 18px;
+                font-weight: 600;
+            }
+            ul{
+                list-style: none;
+                margin-top: 12px;
+                .desc-point{
+                    margin-bottom: 8px;
+                    font-size: 16px;
+                }
 
+            }
+            .learn-button{
+                @include square-button(white, $primary-blue);
+                height: 40px;
+                margin-top: auto;
+                .arrow {
+                  width: 10px;
+                  margin-left: 8px;
+                }
             }
         }
     }

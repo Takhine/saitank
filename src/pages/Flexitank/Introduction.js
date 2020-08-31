@@ -38,7 +38,7 @@ export default function Introduction() {
           </p>
           <Button className="contact-button">
             Contact us{" "}
-            <img className="arrow" src={whiteArrow} alt="Black Arrow" />
+            <img className="arrow" src={whiteArrow} alt="White Arrow" />
           </Button>
         </Col>
         <Col xs={24} md={12} lg={16}>
