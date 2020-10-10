@@ -7,38 +7,6 @@ import flexitank from "static/images/flexitank.png";
 import bannerAsset from "static/images/banner-asset.svg";
 import blueArrow from "static/images/icons/blue-arrow.svg";
 import emblem from "static/images/emblem.png";
-const pointers = [
-  {
-    id: 1,
-    text:
-      "We are Certified, Qualified and Experienced Liquid Transport Specialists.",
-  },
-  {
-    id: 2,
-    text:
-      "We offer Holistic Liquid Logistic Solutions from “ The Source to The End “  second to none!",
-  },
-  {
-    id: 3,
-    text:
-      "Our Supply Chain Structure is Seamless covering Pick Up, Storage, Distribution - Delivery anywhere in the World &  All Over India.",
-  },
-  {
-    id: 4,
-    text:
-      "Our Global Network of Partners and our Indian Associates operate  under the Code of “ Team Spirit “ which is a Winner all the way!",
-  },
-  {
-    id: 5,
-    text:
-      "Our Proven Track Record and Our Prestigious List of Customers speaks for itself.",
-  },
-  {
-    id: 6,
-    text:
-      "Quality Tanks combined with our Dedicated Service  is a Win-Win Situation for all of us !",
-  },
-];
 
 const firstPoints = [
   {

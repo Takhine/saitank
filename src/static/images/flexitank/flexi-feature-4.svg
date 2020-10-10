@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="89" height="89" viewBox="0 0 89 89">
+  <defs>
+    <filter id="Path_338" x="0" y="0" width="89" height="89" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-color="#1f62af" flood-opacity="0.271"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00b59c"/>
+      <stop offset="1" stop-color="#9cffac"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c3ffe8"/>
+      <stop offset="0.997" stop-color="#f0fff4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_546" data-name="Group 546" transform="translate(-974.5 -593.5)">
+    <g id="Group_424" data-name="Group 424" transform="translate(-7814 -12801)">
+      <g transform="matrix(1, 0, 0, 1, 8788.5, 13394.5)" filter="url(#Path_338)">
+        <path id="Path_338-2" data-name="Path 338" d="M34,0A34,34,0,1,1,0,34,34,34,0,0,1,34,0Z" transform="translate(10.5 2.5)" fill="#1427b2"/>
+      </g>
+    </g>
+    <g id="wallet_1_" data-name="wallet (1)" transform="translate(999 592)">
+      <g id="Group_531" data-name="Group 531" transform="translate(4.775 18.348)">
+        <g id="Group_530" data-name="Group 530">
+          <path id="Path_464" data-name="Path 464" d="M88.006,57.742h5.949A2.348,2.348,0,0,0,96.3,55.394V49.523a1.174,1.174,0,0,0-1.174-1.174h-3.6L72.742,46H65.7V65.961a1.174,1.174,0,0,0,1.174,1.174H61V78.877H86.832V67.135h2.348V68.31a1.163,1.163,0,0,0,1.174,1.174H95.13A1.174,1.174,0,0,0,96.3,68.31V62.439a2.348,2.348,0,0,0-2.348-2.348H88.006a1.174,1.174,0,0,1,0-2.348Z" transform="translate(-61 -46)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+      <g id="Group_533" data-name="Group 533" transform="translate(0 16)">
+        <g id="Group_532" data-name="Group 532">
+          <path id="Path_465" data-name="Path 465" d="M34.13,37.135H1.174A1.163,1.163,0,0,0,0,38.31V52.4a1.163,1.163,0,0,0,1.174,1.174H34.13A1.163,1.163,0,0,0,35.3,52.4V38.31A1.163,1.163,0,0,0,34.13,37.135ZM10.646,46.529H8.3a1.174,1.174,0,1,1,0-2.348h2.348a1.174,1.174,0,1,1,0,2.348Zm7.045,2.348a3.523,3.523,0,1,1,3.523-3.523A3.518,3.518,0,0,1,17.691,48.877Zm9.394-2.348H24.736a1.174,1.174,0,1,1,0-2.348h2.348a1.174,1.174,0,1,1,0,2.348Zm4.7-18.787a3.523,3.523,0,1,0,0,7.045h8.3V27.742ZM11.82,20.7H35.3V17.174A1.163,1.163,0,0,0,34.13,16H11.82a2.348,2.348,0,0,0,0,4.7Z" transform="translate(0 -16)" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

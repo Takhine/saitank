@@ -9,12 +9,10 @@ import Services from "./pages/Services";
 import Flexitank from "./pages/Flexitank";
 
 import ScrollToTop from "Layout/ScrollToTop";
-import Layout from "Layout";
 function App() {
   return (
     <Router>
       <ScrollToTop />
-        <Layout>
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/enquiry" exact component={Enquiry} />
@@ -22,7 +20,6 @@ function App() {
             <Route path="/services" exact component={Services} />
             <Route path="/flexitank" exact component={Flexitank} />
           </Switch>
-        </Layout>
     </Router>
   );
 }

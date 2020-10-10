@@ -14,7 +14,12 @@ export default function Banner() {
           <Row gutter={12}>
             <Col xs={24} lg={12} xl={10} className="left-col">
               <FadeIn delay="1500">
-                <h1 className="main-heading">Flexitank</h1>
+                <h1 className="main-heading"><b>Sai</b> Flexitank</h1>
+              </FadeIn>
+              <FadeIn delay="1500">
+                <h2 className="main-subheading">
+                Here are some things that you must know about our <b>tough & robust flexitanks</b>.
+                </h2>
               </FadeIn>
               <Button className="cta-button">
                 Learn More{" "}

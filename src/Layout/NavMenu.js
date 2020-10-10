@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import { Button } from "antd";
 
 // Images
-import whiteArrow from 'static/images/icons/white-arrow.svg';
+import whiteArrow from "static/images/icons/white-right-arrow.svg";
+import blackArrow from "static/images/icons/black-arrow.svg";
+
 
 const navMenu = [
     {
@@ -38,7 +40,7 @@ export default function NavMenu(props) {
         }
         <li className="navItem">
           <NavLink exact to="/enquiry">
-            <Button className={navBackground? "blue-button": "white-button"}>Enquiry</Button>
+            <Button className={navBackground? "blue-button": "white-button"}>Enquiry {navBackground?<img src={whiteArrow} alt="White Arrow" />:<img src={blackArrow} alt="Black Arrow" />}</Button>
           </NavLink>
         </li>
       </ul>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Toolbar, AppBar, useScrollTrigger, Slide } from "@material-ui/core";
+import { Toolbar, AppBar } from "@material-ui/core";
 import { NavLink } from "react-router-dom";
 import * as ReactScroll from "react-scroll";
 import { Button, Drawer, Menu } from "antd";
@@ -9,24 +9,7 @@ import blackLogo from "static/images/black-logo.png";
 import menu from "static/images/icons/menu-icon.svg";
 import whiteArrow from "static/images/icons/white-arrow.svg";
 
-const HideonScroll = (props) => {
-  const { children, window } = props;
 
-  const trigger = useScrollTrigger({
-    target: window ? window() : undefined,
-  });
-
-  const trigger2 = useScrollTrigger({
-    disableHysteresis: true,
-    threshold: 2,
-  });
-
-  return (
-    <Slide appear={false} direction="down" in={!trigger} elevation={0}>
-      {children}
-    </Slide>
-  );
-};
 
 export default function Navbar(props) {
   const [navBackground, setNavBackground] = useState(false);

@@ -5,7 +5,7 @@
         @include msm {
           padding-top: 80px;
           padding-bottom: 80px;
-        }        background-color: #FAFAFA;
+        }        background-color: #F0F0F0;
         @include section-container;
         .types-heading{
             display: flex;
@@ -25,6 +25,11 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            transition: $transition-main;
+            &:hover {
+              box-shadow: $light-box-shadow;
+              transition: $transition-main;
+            }
             &.bulk{
                 border-top: 4px solid #1427b2;
             }

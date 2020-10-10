@@ -1,6 +1,9 @@
 #flexitank {
+  .desktop-flexitank{
+    width: 100%;
+  }
   .introduction {
-    background-color: #fafafa;
+    background-color: $blue-black;
     padding-top: 40px;
     padding-bottom: 40px;
     @include msm {
@@ -41,8 +44,12 @@
     }
     .intro-card {
       box-shadow: $main-box-shadow;
-      height: 100%;
       min-height: 150px;
+      margin-bottom: 24px;
+      @include lg{
+        min-height: 200px;
+        margin-bottom: 50px;
+      }
       transition: $transition-main;
       &:hover {
         box-shadow: $light-box-shadow;
@@ -52,14 +59,32 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: -48px;
+        margin-top: -68px;
         .blue-circle {
           width: 80px;
+          @include lg{
+            width: 120px;
+          }
         }
       }
       .intro-text {
         text-align: center;
         max-width: 300px;
+        margin: auto;
+        color: #707070;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.4;
+      }
+    }
+    .emblem-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      .emblem {
+        width: 100%;
+        max-width: 270px;
         margin: auto;
       }
     }

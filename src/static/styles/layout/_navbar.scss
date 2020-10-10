@@ -8,7 +8,7 @@
     }
     #navbar.transparentStyle{
         transition: 0.5s ease;
-        background: $primary-blue;
+        background: $hard-blue;
         -webkit-transition: 0.5s ease;
         -ms-transition: 0.5s ease;
         box-shadow: none;
@@ -18,7 +18,7 @@
         padding-bottom: 8px;
         height: 60px;
         padding: 0 12px;
-        background-color: $primary-blue;
+        background-color: $hard-blue;
         right: unset;
         color: white;
         @include msm{

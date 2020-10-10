@@ -27,12 +27,14 @@
         @include round-button(white, $primary-blue);
         span{
             font-weight: 500;
+        margin-right: 8px;
             }
     }
     .white-button{
-        @include round-button($primary-blue, white);
+        @include round-button(black, white);
         span{
         font-weight: 500;
+        margin-right: 8px;
         }
     }
 }
